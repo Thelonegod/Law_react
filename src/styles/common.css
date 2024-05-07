@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'circe-regular';
+    src: url('../fonts/Circe-Regular.woff');
+}
+@font-face {
+    font-family: 'circe-bold';
+    src: url('../fonts/Circe-Bold.woff');
+}
+@font-face {
+    font-family: 'circe-bold';
+    src: url('../fonts/Circe-ExtraBold.woff');
+}
+
+:root{
+    --textColor: #fff;
+}
+
+body{
+    font-family: 'circe-regular';
+    background-color: black;
+    color:var(--textColor);
+}
+
+.container{
+    max-width: 1356px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
